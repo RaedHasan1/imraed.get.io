@@ -1,0 +1,35 @@
+*{
+    color: 86A789;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pro{
+    margin-top: 100px;
+}
+
+.propic{
+    height: 120;
+    width: 100;
+}
+
+table{
+    box-shadow: 20px 2px 20px 0px gray;
+    height: 125;
+    width: 66%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+    text-align: center;
+}
+
+h1{
+    color: 1B4242;
+
+}
+
+
+

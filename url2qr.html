@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/url2qr.css') }}">
+<meta name="keywords" content="url to qr,url, qr">
+
+{% extends 'layout.html' %}
+{% block content %}
+<div class="top-container">
+    <h1 id="headline">QR Code Generator</h1>
+</div>
+<div class="mid-container">
+    <form method="POST" class="form">
+        <label for="url" id="label">Enter a URL:</label>
+        <input type="text" name="url" id="url" required>
+        <input type="submit" value="Generate QR Code" id="submit">
+    </form>
+    {% if qr_code_path %}
+    <div class="qr-code">
+        <h2>QR Code:</h2>
+        <img src="{{ url_for('static', filename='qr_code.png') }}" alt="QR Code" id="qr-pic">
+    </div>
+    {% endif %}
+</div>
+    {% endblock content %}

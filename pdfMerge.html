@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pdfMerge.css') }}">
+
+{% extends 'layout.html' %}
+{% block content %}
+
+<h1 id="head">PDF Merger</h1>
+<form method="POST" enctype="multipart/form-data">
+    <div id="pos">
+        <label for="file1">First File:</label>
+        <input type="file" name="file1" accept=".pdf" required class="btn" id="file1">
+        <label for="file2">Second File:</label>
+        <input type="file" name="file2" accept=".pdf" required class="btn" id="file2">
+        <input type="submit" value="Merge PDFs" class="btn" id="submit-btn">
+    </div>
+</form>
+
+{% endblock content %}

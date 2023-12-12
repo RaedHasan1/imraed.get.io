@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;
+0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="top-container">
+    <h1 id="top-h">I'm Raed</h1>
+    <img src="static/pictures/RAED.png" id="personal-pic">
+    <h1 class="top-container">I'm a Pro-Grammar &<br>Computer Engineer Student</h1>
+    <br><br>
+</div>
+
+<div class="mid-container">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+</div>
+
+<h1 id="tbl-head-line">My Skills</h1>
+<div class="skills">
+    <table class="row">
+        <tr>
+            <th><img src="static/pictures/frontend.png" class="skills-pics"></th>
+            <th><h2>Front-End Development</h2><br>
+            <p>HTML, CSS, Javascript, React.</p></th>
+        </tr>
+    </table>
+    <table class="row">
+        <tr>
+            <th><img src="static/pictures/backend.png" class="skills-pics"></th>
+            <th><h2>Back-End Development</h2><br>
+            <p>Flask, nodejs.</p></th>
+        </tr>
+    </table>
+        <table class="row">
+        <tr>
+            <th><img src="static/pictures/database.png" class="skills-pics"></th>
+            <th><h2>Database</h2><br>
+            <p>SQL, SQLAlchemy, Mongodb</p></th>
+        </tr>
+    </table>
+    <table class="row">
+        <tr>
+            <th><img src="static/pictures/prolang.png" class="skills-pics"></th>
+            <th><h2>Programming Languages</h2><br>
+            <p>Python, C, C++</p></th>
+        </tr>
+    </table>
+    <table class="row">
+        <tr>
+            <th><img src="static/pictures/How-to-Become-a-Software-Engineer.jpg" class="skills-pics"><p></p></th>
+            <th><h2>Engineering Courses</h2><br><p>OOP, Data structure, Algorithms, circles analyse</p></th>
+        </tr>
+    </table>
+</div>
+
+<div class="bottom-container">
+    <h1>Get In Touch</h1><br>
+    <h2>In pursuit of my inaugural role within the dynamic realm of high-tech,<br>I would greatly appreciate the chance to showcase my skills and contribute meaningfully.</h2><br>
+    <a href="mailto:raed.hsn1@gmail.com" id="contact-me"><button id="contact-me-btn">Contact me</button></a>
+</div>
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+

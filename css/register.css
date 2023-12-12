@@ -1,0 +1,25 @@
+fieldset{
+    margin-top: 5%;
+    padding: 20px;
+    font-size: 16pt;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 5px 5px 2px gray;
+}
+
+legend{
+    text-align: left;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
+#submit{
+    width: 200px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold
+}

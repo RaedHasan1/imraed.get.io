@@ -1,0 +1,40 @@
+*{
+	color: 86A789;
+	font-size: 14pt;
+}
+
+h1{
+    font-size: 40pt;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    color: 86A789;
+}
+
+#head{
+    text-align: center;
+}
+
+#pos{
+    left: 33%;
+    margin-bottom: 140px;
+    padding: 80px;
+}
+
+.btn{
+    text-align: center;
+}
+
+#submit-btn{
+    border: 2px solid #B2C8BA;
+    border-radius: 5px;
+    background-color: #B2C8BA;
+    font-size: 14pt;
+    padding: 10px;
+    color: white;
+}
+
+#submit-btn:hover{
+    color: B2C8BA;
+    background-color: white;
+}
+

@@ -1,0 +1,56 @@
+*{
+    color: #1B4242;
+}
+
+.top-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 33%;
+    width: 33%;
+    padding: 10px;
+}
+
+.mid-container{
+    margin-bottom: 20%;
+}
+
+#label{
+    font-size: 14pt;
+    padding: 10px;
+}
+
+#url{
+    text-align: left;
+    width: 150px;
+    transition: width .35s ease-in-out;
+    font-size: 14pt;
+    padding: 10px;
+}
+
+#url[type="text"]:focus {
+    width: 250px;
+}
+
+#submit{
+    border: 2px solid #86A789;
+    border-radius: 5px;
+    background-color: #86A789;
+    font-size: 14pt;
+    padding: 10px;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #1B4242;
+    border: 2px solid #1B4242;
+}
+
+#qr-pic{
+    border: 2px solid #B2C8BA;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.qr-code{
+    margin-top: 50px;
+}

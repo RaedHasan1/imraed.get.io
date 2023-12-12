@@ -1,0 +1,52 @@
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/projects.css') }}">
+
+{% extends 'layout.html' %}
+{% block content %}
+ <div class="pro">
+     <a href = "/blog" target="_blank"><table>
+         <tr>
+             <th>
+                <img src="static/pictures/twitter.jpg" class="propic">
+             </th>
+             <th>
+                 <h1>RH-twitter</h1><br>
+                 <p>mini bolg with sign-in option <br> and posting posts<br> </p>
+             </th>
+         </tr>
+         </table></a>
+     <a href = "/home" target="_blank"><table>
+         <tr>
+             <th>
+                <img src="static/pictures/personalligi.jpg" class="propic">
+             </th>
+             <th>
+                 <h1>Personal Website</h1><br>
+                 <p>a personal website with HTML,<br> CSS, Flask and Python</p>
+             </th>
+         </tr>
+     </table></a>
+     <a href ="/url2qr" target="_blank"><table>
+         <tr>
+             <th>
+                <img src="static/pictures/url2qr.png" class="propic">
+             </th>
+             <th>
+                 <h1>URL to QR</h1><br>
+                 <p>Converting URL to QR</p>
+             </th>
+         </tr>
+     </table></a>
+     <a href = "/pdfMerge" target="_blank"><table>
+         <tr>
+             <th>
+                <img src="static/pictures/pdfmerge.jpg" class="propic">
+             </th>
+             <th id="asd">
+                 <h1>PDF files merger</h1><br>
+                 <p>Merging pdf files into one file</p>
+             </th>
+         </tr>
+     </table></a>
+ </div>
+
+{% endblock content %}
